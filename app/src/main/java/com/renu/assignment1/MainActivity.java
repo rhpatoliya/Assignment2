@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button equal_btu , plus_btu , minus_btu , time_btu , divided_btu;
 
+    float mValueOne;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,6 +108,61 @@ public class MainActivity extends AppCompatActivity {
                 result.setText(result.getText() + "0");
             }
         });
+
+        plus_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(result.getText() + "+");
+
+                }
+
+        });
+        minus_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(result.getText() + "-");
+
+            }
+
+        });
+        time_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(result.getText() + "*");
+
+            }
+
+        });
+
+        divided_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(result.getText() + "/");
+
+            }
+
+        });
+
+        equal_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(result.getText() + "=");
+
+            }
+
+        });
+
+        clear_btu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String s=result.getText().toString();
+                s = s.substring(0,s.length()-1); 
+                result.setText(s);
+            }
+        });
+
+
+
 
     }
 }

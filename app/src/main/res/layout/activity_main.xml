@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginBottom="30sp"
+        android:background="@color/Orange"
+        android:text="@string/app_title"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:weightSum="4"
+        android:background="@color/Orange"
+        >
+        <Button
+            android:id="@+id/one_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/one_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/two_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/two_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/three_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/three_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/plus_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/plus_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="4"
+        android:background="@color/Orange"
+
+        >
+        <Button
+            android:id="@+id/four_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/four_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/five_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/five_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/six_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/six_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/minus_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/minuse_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="4"
+        android:background="@color/Orange"
+
+        >
+        <Button
+            android:id="@+id/seven_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/seven_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/eight_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/eight_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/nine_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/nine_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/time_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/times_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="4"
+        android:background="@color/Orange"
+
+        >
+        <Button
+            android:id="@+id/clear_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/clear_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/zero_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/zero_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/equal_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/equal_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/divided_btu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="@string/divid_sign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/advance_title"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/advance_string" />
+
+
+</LinearLayout>
+

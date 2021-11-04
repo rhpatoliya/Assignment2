@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="app_title">Assignment1</string>
+    <string name="finalresult">Your Final Result</string>
+    <string name="one_sign">1</string>
+    <string name="two_sign">2</string>
+    <string name="three_sign">3</string>
+    <string name="four_sign">4</string>
+    <string name="five_sign">5</string>
+    <string name="six_sign">6</string>
+    <string name="seven_sign">7</string>
+    <string name="eight_sign">8</string>
+    <string name="nine_sign">9</string>
+    <string name="clear_button">C</string>
+    <string name="zero_sign">0</string>
+    <string name="equal_sign">=</string>
+    <string name="advance_string">ADVANCE-WITH HISTORY</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="plus_sign">+</string>
+    <string name="minuse_sign">-</string>
+    <string name="times_sign">*</string>
+    <string name="divid_sign">/</string>
+</resources>
